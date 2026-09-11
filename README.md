@@ -139,7 +139,7 @@ Found an error or want to improve?
 Open an **issue** or submit a **pull request**. All contributions are welcome.
 
 ---
-
-**MR CYBER** — *Powered by Puppy Community & Rishika Community* 🌿
+ 
+— *Powered by **MR CYBER*** 🌿
 
 © 2026 Harsh Saini — All Rights Reserved.
