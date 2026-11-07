@@ -17,27 +17,27 @@ Always check [CompTIA's official website](https://www.comptia.org/) for current 
 ## Table of contents
 
 ### Domain 1 — General Security Concepts
-[Open notes](01-general-security-concepts.md)
+[Open PDF notes](CompTIA_SecurityPlus_Notes.pdf)
 
 Topics include the CIA triad, AAA, security controls, Zero Trust, physical security, cryptography fundamentals, and change management.
 
 ### Domain 2 — Threats, Vulnerabilities, and Mitigations
-[Open notes](02-threats-vulnerabilities-mitigations.md)
+[Open PDF notes](CompTIA_SecurityPlus_Notes.pdf)
 
 Topics include threat actors, social engineering, malware, application and network attacks, vulnerabilities, and mitigations.
 
 ### Domain 3 — Security Architecture
-[Open notes](03-security-architecture.md)
+[Open PDF notes](CompTIA_SecurityPlus_Notes.pdf)
 
 Topics include cloud models, security infrastructure, data protection, resilience, and recovery.
 
 ### Domain 4 — Security Operations
-[Open notes](04-security-operations.md)
+[Open PDF notes](CompTIA_SecurityPlus_Notes.pdf)
 
 Topics include hardening, IAM, vulnerability management, monitoring, incident response, forensics fundamentals, and automation.
 
 ### Domain 5 — Security Program Management and Oversight
-[Open notes](05-security-program-management.md)
+[Open PDF notes](CompTIA_SecurityPlus_Notes.pdf)
 
 Topics include governance documents, risk management, third-party risk, and security awareness.
 
@@ -48,6 +48,19 @@ Topics include governance documents, risk management, third-party risk, and secu
 3. Use practice questions from legitimate study resources to identify knowledge gaps.
 4. Reinforce concepts with safe labs and practical defensive exercises.
 5. Revisit topics you find difficult and verify details against current documentation.
+
+## Local study progress tracker
+
+Use the included command-line helper to track each domain and keep a short revision note. Progress is stored locally in your home directory; it is not uploaded.
+
+```bash
+python study_tracker.py list
+python study_tracker.py set 1 in-progress
+python study_tracker.py note 1 "Review CIA triad and control types"
+python study_tracker.py set 1 reviewed
+```
+
+Run `python study_tracker.py --help` for options. The tracker is a planning aid, not an exam readiness score.
 
 ## Quick revision map
 
